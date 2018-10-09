@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_height="wrap_content"
+                android:fontFeatureSettings=""
+                android:textColor="#0059ff"
+                android:textStyle="bold" />
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="#6bff00bb"
+
+                android:id="@+id/email"/>
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:id="@+id/mobNo"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
